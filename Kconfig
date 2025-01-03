@@ -1,0 +1,30 @@
+source "Kconfig.zephyr"
+
+config D2H_USBD_MAX_POWER
+    int "USB device sample bMaxPower value"
+    default 125
+    range 0 250
+
+config D2H_USBD_SELF_POWERED
+    bool
+    default n
+
+config D2H_USBD_REMOTE_WAKEUP
+    bool
+    default n
+
+config D2H_DEVICE_PRODUCT
+    string "USB device product string"
+    default "Daydream2HID"
+
+config D2H_DEVICE_MANUFACTURER
+    string "USB device manufacturer string"
+    default "Evan Perry Grove"
+
+config D2H_DEVICE_PID
+    hex "USB device product ID"
+    default 0x0420
+
+config D2H_DEVICE_VID
+    hex "USB device vendor ID"
+    default 0x2fe3
