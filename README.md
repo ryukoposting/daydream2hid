@@ -4,7 +4,7 @@ Daydream2HID turns a Google Daydream controller into a USB HID device.
 
 # Demo Video
 
-![Video showing the use of the Daydream controller to control a PC.](/misc/demo-video.webm)
+![Video showing the use of the Daydream controller to control a PC.](/misc/demo.mp4)
 
 *Note that I've improved the gyro code a bit since recording this video.*
 
