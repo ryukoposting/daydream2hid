@@ -4,7 +4,9 @@ Daydream2HID turns a Google Daydream controller into a USB HID device.
 
 # Demo Video
 
-![Video showing the use of the Daydream controller to control a PC.](/misc/demo.mp4)
+<video controls>
+   <source src="https://hardfault.life/public/daydream-controller/demo.webm" type="video/webm">
+</video>
 
 *Note that I've improved the gyro code a bit since recording this video.*
 
@@ -44,7 +46,7 @@ of like a Wiimote.
 # Building
 
 I developed this firmware using an [nRF52840 DK]. You should be able to use any
-board [supported by Zephyr] as long as it has Bluetooth, USB host, and a couple
+board [supported by Zephyr] as long as it has Bluetooth, USB, and a couple
 LEDs. You'll have to add your own overlay file in the `boards/` directory if
 you aren't using an nRF52840 DK.
 
