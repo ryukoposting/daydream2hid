@@ -4,9 +4,7 @@ Daydream2HID turns a Google Daydream controller into a USB HID device.
 
 # Demo Video
 
-<video controls>
-   <source src="https://hardfault.life/public/daydream-controller/demo.webm" type="video/webm">
-</video>
+![Daydream2HID demo video](https://hardfault.life/public/daydream-controller/demo.webm)
 
 *Note that I've improved the gyro code a bit since recording this video.*
 
