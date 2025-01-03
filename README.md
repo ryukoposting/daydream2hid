@@ -38,10 +38,9 @@ edge-dragging.
 
 To use the controller in gyro mode, press and hold the Home (circle) button,
 and wave the controller around. This will cause the cursor to move around, sort
-of like a Wiimote.
+of like a Wii-mote.
 
 ![Picture of the Daydream controller with buttons labeling each button and the gyro axes](/misc/controller-axis.png)
-
 
 # Building
 
